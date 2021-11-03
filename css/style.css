@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+}
+
+.box{
+    height: 100vh;
+    position:relative;
+    z-index: 1;
+}
+
+.oggetti{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 250%;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+img{
+    width: 80%;
+}
+
+.rosso{
+    background-color: red;
+    color: yellow;
+}
+
+.verde{
+    background-color: green;
+    color: yellow;
+}
+
+.giallo{
+    background-color: yellow;
+    color: green;
+}
+
+.box-pulsanti{
+    position: fixed;
+    top: 50px;
+    right: 0px;
+    display: inline-block;
+}
+
+a{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: white;
+    z-index: 3;
+}

@@ -18,7 +18,7 @@
     text-transform: uppercase;
     font-size: 250%;
     font-weight: bold;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 
@@ -68,4 +68,5 @@ span{
     font-weight: bold;
     font-size: 200%;
     color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
